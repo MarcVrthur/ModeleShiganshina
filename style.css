@@ -10,6 +10,10 @@ html{
     overflow: auto;
 }
 
+/* --------------- Corps de la page --------------- */
+
+/* --------------- Configuration de l'arriere plan de la page  */
+
 body{
     display: flex;
     background-position-x: center;
@@ -21,7 +25,10 @@ body{
     background-image: url(Image/backgroundrivai1.jpeg);
 }
 
-/* Menu de navigation */
+/* --------------- Fin Configuration de l'arriere plan de la page  */
+
+/* --------------- Header */
+
 .menu{
     display: flex;
     background: rgba(0, 0, 0, 0.7);
@@ -53,11 +60,11 @@ body{
 .lien_menu:hover, .boutonbody{
     background-color: rgb(145, 78, 34);
 }
-/* --- */
+
+/* --------------- Fin Header */
 
 
-/* Corps de la page */
-
+/* --------------- Corps de la page */
 
 .textacceuil{
     font-size: 4em;
@@ -87,5 +94,115 @@ footer{
     text-align: center;
 }
 
-/* --- */
+/* --------------- Fin Corps de la page */
+
+/* --------------- Media Query */
+
+@media (max-width:600px) {
+
+    html{
+        min-width: 450px;
+        min-height: 600px;     
+        overflow: auto;
+    }
+
+    /* --------------- Corps de la page --------------- */
+
+    /* --------------- Configuration de l'arriere plan de la page  */
+
+    body{
+        display: flex;
+        background-position-x: center;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-image: url(Image/backgrounderen2.jpeg);
+    }
+
+    /* --------------- Fin Configuration de l'arriere plan de la page  */
+
+    /* --------------- Header */
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.7);
+        justify-content:center;
+        align-items:center;
+        width: 100%;
+        padding-bottom:20px;
+    }
+
+    .logomenu{
+        display: flex;
+        width: 9%;
+        margin: 10px auto;
+    }
+
+    .logomenu:hover{
+        opacity: 0.5;
+    }
+
+    .liens_nav{
+        margin-right:0px;
+    }
+
+    .lien_menu, .boutonbody{
+        padding: 5px 15px;
+        border-radius: 2.5px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .lien_menu:hover, .boutonbody{
+        background-color: rgb(145, 78, 34);
+    }
+
+    /* --------------- Fin Header */
+
+
+    /* --------------- Corps de la page */
+
+    .textacceuil{
+        font-size: 2.5em;
+        font-weight: 600;
+        text-align: center;
+        color: rgb(253, 253, 253);
+        padding: 0px 20px;
+    }
+
+    .boutoncontainer{
+        display: flex;
+        justify-content: center;
+        padding: 2vh;
+        text-align: center;
+        gap:3vh;
+    }
+
+    section{
+        margin-top: unset;
+    }
+
+    main{
+        margin: 25% auto;
+    }
+
+    footer{
+        position:unset;
+        top: unset;
+        bottom:unset;
+        margin: unset;
+        margin-top:10%;
+        font-size: 1em;
+        color: rgb(228, 228, 228);
+        width:unset;
+        text-align: center;
+    }
+
+    /* --------------- Fin Corps de la page */
+    
+}
+
 
