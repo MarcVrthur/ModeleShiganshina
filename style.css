@@ -102,7 +102,7 @@ footer{
 
     html{
         min-width: 450px;
-        min-height: 600px;     
+        min-height: 100vh;     
         overflow: auto;
     }
 
