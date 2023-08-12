@@ -98,7 +98,7 @@ footer{
 
 /* --------------- Media Query */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:710px) {
 
     html{
         min-width: 450px;

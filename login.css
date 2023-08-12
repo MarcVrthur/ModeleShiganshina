@@ -307,7 +307,7 @@ aside input:hover{
 @media screen and (max-width: 500px){ 
 
     html{
-        min-height: 600px;     
+        min-height: 710px;     
         overflow: auto;
     }    
     
