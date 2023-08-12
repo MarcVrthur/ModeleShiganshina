@@ -304,10 +304,10 @@ aside input:hover{
 /* --------------- Fin Corps de la page --------------- */
 
 
-@media screen and (max-width: 500px){ 
+@media screen and (max-width: 900px){ 
 
     html{
-        min-height: 710px;     
+        min-height: 600px;     
         overflow: auto;
     }    
     
