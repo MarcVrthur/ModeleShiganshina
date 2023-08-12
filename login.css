@@ -69,12 +69,11 @@ header p{ /* Texte a cote du logo */
 
 .logoetsontexte{ /* Coller le logo avec le texte */
     position: relative;
-    padding: 1.5vh;
-    right: 20px;
-    bottom:20px;
     display: flex;
     flex-direction:row;
     align-items:center;
+    bottom:20.5%;
+
 }
 
 /* --------------- Fin Header --------------- */
@@ -205,7 +204,7 @@ section div a img:hover{ /* Configuration pour les boutons réseaux */
 body{ /* Configuration de la grille pour gerer l'agencement de la page  */
     display:grid;
     grid-template-columns: 2.5fr 1.3fr;
-    grid-template-rows: 20vh 80vh;
+    min-height: 100vh;
 }
 
 aside{
@@ -236,8 +235,9 @@ aside img{ /* Image pour la superposition */
 }
 
 main{
+    position: relative;
     grid-row:2;
-    padding-top:5vh ;
+    bottom:10vh ;
 }
 
 /* --------------- Fin Grille pour ranger le contenue de la page */
