@@ -79,10 +79,10 @@ section{
 }
 
 footer{
-    position: absolute;
+    position:sticky;
+    top: 95.5%;
     font-size: 1em;
     color: rgb(228, 228, 228);
-    bottom: 2vh;
     width:100%;
     text-align: center;
 }
