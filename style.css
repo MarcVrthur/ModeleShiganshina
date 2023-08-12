@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    font-family: Manrope;
+    font-size: 1em;
+}
+
+html{
+    min-width: 700px;
+    min-height: 600px;     
+    overflow: auto;
+}
+
+body{
+    display: flex;
+    background-position-x: center;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-image: url(image/backgroundrivai1.jpeg);
+}
+
+/* Menu de navigation */
+.menu{
+    display: flex;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+}
+
+.logomenu{
+    width: 9vh;
+    margin: 1.5vh 5vh;
+}
+
+.logomenu:hover{
+    opacity: 0.5;
+}
+
+.liens_nav{
+    margin-right:15px;
+}
+
+.lien_menu, .boutonbody{
+    padding: 5px 15px;
+    border-radius: 2.5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.lien_menu:hover, .boutonbody{
+    background-color: rgb(145, 78, 34);
+}
+/* --- */
+
+
+/* Corps de la page */
+
+
+.textacceuil{
+    font-size: 4em;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(253, 253, 253);
+}
+
+.boutoncontainer{
+    display: flex;
+    justify-content: center;
+    padding: 2vh;
+    text-align: center;
+    gap:3vh;
+}
+
+section{
+    margin-top: 24.5vh;
+}
+
+footer{
+    position: absolute;
+    font-size: 1em;
+    color: rgb(228, 228, 228);
+    bottom: 2vh;
+    width:100%;
+    text-align: center;
+}
+
+/* --- */
+
