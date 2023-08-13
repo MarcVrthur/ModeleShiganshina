@@ -86,13 +86,24 @@ section{
 }
 
 footer{
-    position:sticky;
-    top: 95.5%;
+    position:unset;
+    text-align: center;
+    margin-top:135px;
     font-size: 1em;
     color: rgb(228, 228, 228);
-    width:100%;
+    width:unset;
     text-align: center;
 }
+
+/* footer{
+    position:relative;
+    top: -0vh;
+    margin: auto auto 10px auto;
+    font-size: 1em;
+    color: rgb(228, 228, 228);
+
+    
+} */
 
 /* --------------- Fin Corps de la page */
 
@@ -101,8 +112,9 @@ footer{
 @media screen and (max-width:900px) {
 
     html{
-        min-width:unset;
-        min-height: unset;     
+        min-width:100%;
+        min-height: auto;   
+        height: 100%;  
         overflow: auto;
     }
 
@@ -192,14 +204,17 @@ footer{
     footer{
         position:unset;
         top: unset;
-        bottom:unset;
+        bottom: 0;
+        text-align: center;
         margin: unset;
-        margin-top:unset;
+        margin-top:70px;
         font-size: 1em;
         color: rgb(228, 228, 228);
         width:unset;
         text-align: center;
     }
+
+    
 
     /* --------------- Fin Corps de la page */
     
