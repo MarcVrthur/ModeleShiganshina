@@ -98,11 +98,11 @@ footer{
 
 /* --------------- Media Query */
 
-@media screen and (max-width:1700px) {
+@media screen and (max-width:900px) {
 
     html{
-        min-width: 450px;
-        min-height: 100vh;     
+        min-width:unset;
+        min-height: unset;     
         overflow: auto;
     }
 
@@ -194,7 +194,7 @@ footer{
         top: unset;
         bottom:unset;
         margin: unset;
-        margin-top:10%;
+        margin-top:unset;
         font-size: 1em;
         color: rgb(228, 228, 228);
         width:unset;
