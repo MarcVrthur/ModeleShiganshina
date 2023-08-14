@@ -120,15 +120,15 @@ section div a img:hover{ /* Configuration pour les boutons réseaux */
     animation: neon 1s infinite alternate;/* Animation pour si il y avais du texte a l'interieur de la balise */
 }
 
-.logo1:hover{
+.logo1:hover, .logo1:active{
     filter: brightness(1) saturate(2.5) drop-shadow(0 0 10px rgb(9, 89, 152));
 }
 
-.logo2:hover{
+.logo2:hover, .logo2:active{
     filter: brightness(1) saturate(2.5) drop-shadow(0 0 10px rgb(220, 0, 0));
 }
 
-.logo3:hover{
+.logo3:hover, .logo3:active{
     filter: brightness(1) saturate(2.5) drop-shadow(0 0 10px rgb(0, 170, 255));
 }
 
@@ -307,7 +307,9 @@ aside input:hover{
 @media screen and (max-width: 900px){ 
 
     html{
-        min-height: 100vh;     
+        min-width:auto;
+        min-height: auto;   
+        height: 100vh;  
         overflow: auto;
     }    
     
@@ -319,6 +321,7 @@ aside input:hover{
     main{
         bottom: 0;
         width: 80%;
+        margin: 10dvh auto auto;
         align-self: center;
     }
 
